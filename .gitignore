@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+.ipynb_checkpoints/
+# Raw Binance 1-minute klines (~150 MB). Re-create with: python download_dataset.py
+data/raw/
+# Empty leftovers from running the upstream downloader.py; not used by the pipeline.
+data/*.csv

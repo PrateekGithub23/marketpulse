@@ -1,0 +1,11 @@
+# Dependencies for the MarketPulse pipeline (download, dataset build, training, dashboard).
+# Versions are the ones this project was last run with (Python 3.14).
+# requirements.txt belongs to the upstream research code (features.py, classifier.py, downloader.py).
+joblib==1.5.3
+matplotlib==3.11.1
+numpy==2.5.2
+pandas==3.0.5
+plotly==7.0.0
+requests==2.34.2
+scikit-learn==1.9.0
+streamlit==1.63.0
